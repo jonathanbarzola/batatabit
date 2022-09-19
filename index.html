@@ -4,11 +4,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./assets/icons/batata.svg" type="image/x-icon">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./css/tablet.css" media="(min-width: 930px)">
     <title>Batatabit</title>
 </head>
 <body>
@@ -19,7 +21,7 @@
         <div class="header--title-container">
             <h1>La próxima revolución en el intercambio de criptomonedas.</h1>
             <p>Batatabit te ayuda a navegar entre los diferentes precios y tendencias.</p>
-            <a href="" class="header--button">Conoce nuestros planes <span></span></a>
+            <a href="#plans" class="header--button">Conoce nuestros planes <span></span></a>
         </div>
     </header>
 
@@ -98,19 +100,89 @@
 
             <section class="product-cards--container">
                 <article class="product-detail--card">
-                    <span class="clock"></span>
+                    <span class="clock icon-card"></span>
                     <p class="product--card-title">Tiempo real</p>
                     <p class="product--card-body">Nuestra API toma infomración minuto a minuto sobre las tasas que más determinan el comportamiento.</p>
                 </article>
-            </section>
 
+                <article class="product-detail--card">
+                    <span class="eye icon-card"></span>
+                    <p class="product--card-title">No hay tasas escondidas</p>
+                    <p class="product--card-body">Ni en la compra o al momento de exit, Batabit siempre te muestra el costo real de lo que estás adquiriendo.</p>
+                </article>
+
+                <article class="product-detail--card">
+                    <span class="dollar icon-card"></span>
+                    <p class="product--card-title">Compara monedas</p>
+                    <p class="product--card-body">No más rumores, con Babtabit sabrás el valor real de cada moneda en el mercado actual.</p>
+                </article>
+
+                <article class="product-detail--card">
+                    <span class="check icon-card"></span>
+                    <p class="product--card-title">Información confiable</p>
+                    <p class="product--card-body">Nuestras fuentes están 100% verificadas y continuamos auditando su contenido mientras se actualizan.</p>
+                </article>
+            </section>
         </section>
 
-        <section></section>
+        <section class="bitcoin-img-container">
+            <h2>Conócelo hoy.</h2>
+        </section>
 
-        <section></section>
+        <section id="plans" class="main-plans-container">
+
+            <div class="plans--title">
+                <h2>Escoge el plan que mejor se ajuste a ti.</h2>
+                <p>Cualquier plan te da acceso completo a nuestra plataforma.</p>
+            </div>
+
+            <section class="plans-container--slider">
+
+                <article class="plans-container--card">
+                    <p class="recommended baratito">Básico</p>
+                    <div class="plan-info-container">
+                        <h3 class="plan-card--title">Pago Mensual</h3>
+                        <p class="plan-card--price"><span>$</span>9</p>
+                        <p class="plan-card--saving">*Para ti no hay nada por elegir el más barato.</p>
+                        <button class="plan-card--ca">Escoger este <span></span></button>
+                    </div>
+                </article>
+
+                <article class="plans-container--card">
+                    <p class="recommended">Recomendado</p>
+                    <div class="plan-info-container">
+                        <h3 class="plan-card--title">Pago Anual</h3>
+                        <p class="plan-card--price"><span>$</span>99</p>
+                        <p class="plan-card--saving">*Ahorras $129 comparado al plan mensual.</p>
+                        <button class="plan-card--ca">Escoger este <span></span></button>
+                    </div>
+                </article>
+
+                <article class="plans-container--card">
+                    <p class="recommended premium">Exclusivo</p>
+                    <div class="plan-info-container">
+                        <h3 class="plan-card--title">Único pago</h3>
+                        <p class="plan-card--price"><span>$</span>999</p>
+                        <p class="plan-card--saving">*Acceso de por vida y regalos cada mes.</p>
+                        <button class="plan-card--ca">Escoger este <span></span></button>
+                    </div>
+                </article>
+            </section>
+        </section>
     </main>
 
-    <footer></footer>
+    <footer>
+        <section class="left">
+            <ul>
+                <li><a href="https://www.linkedin.com/in/jonathanbarzola/" target="_blank">Linkedin</a></li>
+                <li><a href="https://github.com/jonathanbarzola" target="_blank">GitHub</a></li>
+                <li><a href="https://twitter.com/jonathanb2102" target="_blank">Twitter</a></li>
+            </ul>
+        </section>
+
+        <section class="right">
+            <img loading="lazy" src="./assets/img/logo-footer.svg" alt="Logo de Batatabit 2022">
+        </section>
+    </footer>
 </body>
 </html>
