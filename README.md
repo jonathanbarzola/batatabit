@@ -1,4 +1,4 @@
-# Batatabit - mobile first
+# Batatabit - Mobile First
 
 Proyecto realizado 100% responsive design usando el concepto de diseño "Mobile First" y con buenas prácticas.
 
